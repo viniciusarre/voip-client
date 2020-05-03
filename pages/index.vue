@@ -15,7 +15,7 @@
           src="https://www.youtube.com/embed/1wRzL4HNVsw?autoplay=1&controls=0&showinfo=0&showtitle=0"
         />
       </div>
-      <div class="mt-12 d-flex flex-row">
+      <div class="ml-2 mt-12 d-flex flex-row">
         <user-avatar
           v-for="(user, index) in users"
           :key="user.name"
